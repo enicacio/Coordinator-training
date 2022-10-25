@@ -21,6 +21,8 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: CustomViewDelegate {
-    
+    func buttonDidTouched(sender: UIButton) {
+        print("OK")
+    }
 }
 
